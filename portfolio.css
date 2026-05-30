@@ -1,0 +1,16 @@
+
+body{
+    background-color: #e8dcc6;
+    color: #2b2118;
+    line-height: 1.6;
+}
+
+td,th{
+        border: 1px solid #000000;
+        text-align: center;
+        padding: 6px 12px;
+    }   
+
+table{
+    border-collapse: collapse;
+}
