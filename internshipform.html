@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Internship Form</title>
+</head>
+<body>
+    <h1>Tech Internship Form</h1>
+    <form action="" method="get">
+        <label for="fullname">Full Name</label>
+        <input id="fullname" name="fullname" type="text"  placeholder="enter your full name" required> <br/> 
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="enter email" required> <br/>
+        <label for="phone">Phone</label>
+        <input id="phone" name="phone" type="tel" placeholder="enter your phone number" required maxlength="10"> <br/>
+        <label for="college">College</label>
+        <input id="college" name="college" type="text" placeholder="enter your college name"> <br/>
+        
+        <label for="degree">Degree</label>
+        <select name="degree" id="degree">
+            <option value="" disabled selected hidden>choose an option..</option>
+            <option value="MCA">MCA</option>
+            <option value="BCA">BCA</option>
+            <option value="B.Tech">B.Tech</option>
+            <option value="BE">BE</option>
+            <option value="M.Tech">M.Tech</option>
+        </select> <br/>
+
+        <p>Select your Skills</p>
+        <input type="checkbox" name="skills" id="HTML" value="HTML">
+        <label for="HTML">HTML</label> <br/>
+        <input type="checkbox" name="skills" id="CSS" value="CSS">
+        <label for="CSS">CSS</label> <br/>
+        <input type="checkbox" name="skills" id="JavaScript" value="JavaScript">
+        <label for="JavaScript">JavaScript</label> <br/>
+        <input type="checkbox" name="skills" id="Python" value="Python">
+        <label for="Python">Python</label> <br/>
+        <input type="checkbox" name="skills" id="Java" value="Java">
+        <label for="Java">Java</label> <br/>
+        <input type="checkbox" name="skills" id="REACT" value="REACT">
+        <label for="REACT">React</label> <br/>
+
+        <label for="role">Preferred Role</label>
+        <select name="role" id="role">
+            <option value="Web Developer">Web Developer</option>
+            <option value="Software Developer">Software Developer</option>
+            <option value="Backend Developer">Backend Developer</option>
+            <option value="FullStack Developer">FullStack Developer</option>
+        </select> <br/>
+
+        <label for="github">GitHub</label>
+        <input type="url" name="github" id="github"> <br/>
+
+        <label for="mytextarea">Why should we Hire You?</label>
+        <textarea name="mytextarea" id="mytextarea" rows="5" cols="40"></textarea> <br/> 
+
+        <p>Available for Internship?</p>
+        <input type="radio"
+        id="yes"
+        name="availability"
+        value="yes">
+
+        <label for="yes">Yes</label>
+
+        <input type="radio"
+        id="no"
+        name="availability"
+        value="no">
+
+        <label for="no">No</label> <br/>
+
+
+        <button type="submit">Submit</button>
+    </form>
+    
+</body>
+</html>
